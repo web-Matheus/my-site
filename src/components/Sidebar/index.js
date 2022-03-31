@@ -1,6 +1,6 @@
 import './index.scss'
-import LogoS from '../../assets/images/logo-s.png'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
+// import LogoS from '../../assets/images/logo-s.png'
+// import LogoSubtitle from '../../assets/images/logo_sub.png'
 import Matheus from '../../assets/images/matheus.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -39,7 +39,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+            href="https://www.linkedin.com/in/matheus-santos-67301020b/"
             target="_blank"
             rel="noreferrer"
           >
@@ -48,7 +48,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://github.com/bobangajicsm"
+            href="https://github.com/web-Matheus"
             target="_blank"
             rel="noreferrer"
           >
@@ -57,7 +57,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
+            href="https://www.instagram.com/"
             rel="noreferrer"
             target="_blank"
           >
@@ -65,7 +65,7 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
+          <a href="https://twitter.com/home" rel="noreferrer" target="_blank">
             <FontAwesomeIcon icon={faTwitter} color="#4d4d4e" />
           </a>
         </li>
