@@ -1,12 +1,20 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-// import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import {
+  faAngular,
+  faCss3,
+  faGitAlt,
+  faHtml5,
+  faJsSquare,
+  faReact,
+} from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
-const Contact = () => {
+ const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const form = useRef()
 
@@ -21,7 +29,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_hdk6cpw', 
+        'service_93t1vn9', 
         'template_ohuugn7', 
         form.current,
          'vid_glnl_-XIAnbgc'
@@ -85,16 +93,32 @@ const Contact = () => {
                 </li>
               </ul>
             </form>
+
           </div>
         </div>
-        {/* <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
-            </Marker>
-          </MapContainer>
-        </div> */}
+    
+        <div className="stage-cube-cont">
+          <div className="cubespinner">
+            <div className="face1">
+              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+            </div>
+            <div className="face2">
+              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+            </div>
+            <div className="face3">
+              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+            </div>
+            <div className="face4">
+              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+            </div>
+            <div className="face5">
+              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+            </div>
+            <div className="face6">
+              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+            </div>
+          </div>
+        </div>
       </div>
       <Loader type="pacman" />
     </>
