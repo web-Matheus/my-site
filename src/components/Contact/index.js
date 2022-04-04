@@ -57,7 +57,7 @@ import './index.scss'
             />
           </h1>
           <p>
-           Eu tenho muito interesse em trabalhar em grandes projetos.
+           Send me a message! challenge me
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
