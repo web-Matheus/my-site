@@ -17,3 +17,5 @@ npm i @fontawesome/react-fontawesome
  npm i react-loaders
  npm i react-router-dom
  npm i sass
+ #### include-media
+ Markup :  [Api](https://github.com/eduardoboucas/include-media "library para responsividade") 

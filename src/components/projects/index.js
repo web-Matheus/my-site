@@ -11,6 +11,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../About/index.scss'
 
+
 const Project = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 

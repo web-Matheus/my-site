@@ -1,3 +1,11 @@
+$breakpoints: (
+  'phone': 320px,
+  'tablet': 768px,
+  'desktop': 1024px
+) !default;
+
+$orange:#ff9b54;
+
 .stage-cube-cont {
   width: 50%;
   height: 100%;
@@ -56,6 +64,7 @@
     transform: rotateX(-90deg) translateZ(100px);
     color: #ec4d28;
   }
+
 }
 
 @keyframes spincube {
@@ -79,3 +88,4 @@
     transform: rotateX(90deg);
   }
 }
+
