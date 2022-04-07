@@ -1,21 +1,21 @@
 # React Portfolio
 ## Package
-npm i @email/browser
-    para o contact form
-Markup :  [Api](https://www.emailjs.com/docs/ "emailjs")  
+1. npm i @email/browser
+>para o contact form
+>Library:  [Api](https://www.emailjs.com/docs/ "emailjs")  
 
- npm i @fortawesome/free-brands-icons
-    para front icons
- npm i @fortawesome/free-solid-svg-icons
-npm i @fontawesome/react-fontawesome
+2.npm i @fortawesome/free-brands-icons
+>para front icons
+3.npm i @fortawesome/free-solid-svg-icons
+4.npm i @fontawesome/react-fontawesome
 
- npm i animate.css
- npm i gsap-trial
- npm i loaders.css
-    pac man
- npm i react-leaflet
- npm i react-loaders
- npm i react-router-dom
- npm i sass
+ 5.npm i animate.css <br>
+ 6.npm i gsap-trial
+ 7.npm i loaders.css
+>pac man
+ 8.npm i react-leaflet
+ 9.npm i react-loaders
+ 10.npm i react-router-dom
+ 11.npm i sass
  #### include-media
- Markup :  [Api](https://github.com/eduardoboucas/include-media "library para responsividade") 
+ Library:  [documentação](https://github.com/eduardoboucas/include-media "library para responsividade") 

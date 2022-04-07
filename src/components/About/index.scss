@@ -1,10 +1,4 @@
-$breakpoints: (
-  'phone': 320px,
-  'tablet': 768px,
-  'desktop': 1024px
-) !default;
-
-$orange:#ff9b54;
+@import "../breakpoints/breakpoints.scss";
 
 .stage-cube-cont {
   width: 50%;
@@ -15,6 +9,18 @@ $orange:#ff9b54;
   position: absolute;
   right: 0;
   overflow: hidden;
+}
+.text-zone{
+  @include media('<=tablet'){
+    margin-left: 50px;
+    p{
+      width: 100%;
+      font-size: 5rem;
+      line-height: 2rem;
+      position: relative;
+    }
+    }
+  
 }
 
 .cubespinner {
@@ -38,7 +44,8 @@ $orange:#ff9b54;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 20px 0px lightyellow;
-  }
+
+}
 
   .face1 {
     transform: translateZ(100px);

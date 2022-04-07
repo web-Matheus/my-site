@@ -1,3 +1,4 @@
+@import "../../breakpoints/breakpoints.scss";
 .logo-container {
   z-index: 0;
   width: 400px;
@@ -28,6 +29,11 @@
     opacity: 0;
     transform: rotateZ(30deg) !important;
     z-index: 1;
+    @include media("<=tablet"){
+        opacity: 0.1;
+        position: relative;
+    
+    }
   }
 }
 
