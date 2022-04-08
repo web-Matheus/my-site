@@ -1,7 +1,23 @@
 @import "../breakpoints/breakpoints.scss";
 
+.text-zone{
+  p{
+    line-height: 2rem;
+  }
+
+  @include media('<=tablet'){
+    margin-left: 50px;
+    width: 180%;
+    p{
+      line-height: 2rem;
+      min-width: 20rem;
+      
+      }
+    }
+  }
+
 .stage-cube-cont {
-  width: 50%;
+  width: 48%;
   height: 100%;
   top: 0;
   padding-top: 18%;
@@ -9,19 +25,13 @@
   position: absolute;
   right: 0;
   overflow: hidden;
-}
-.text-zone{
-  @include media('<=tablet'){
-    margin-left: 50px;
-    p{
-      width: 100%;
-      font-size: 5rem;
-      line-height: 2rem;
-      position: relative;
-    }
-    }
+  @include media("<=570px"){
+   display: none;
+  }
   
 }
+
+  
 
 .cubespinner {
   animation-name: spincube;
@@ -31,6 +41,10 @@
   transform-style: preserve-3d;
   transform-origin: 100px 100px 0;
   margin-left: calc(50% - 100px);
+  @include media("<=phone"){
+    background: #dd0031;
+  }
+  
 
   div {
     position: absolute;
@@ -44,7 +58,6 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 20px 0px lightyellow;
-
 }
 
   .face1 {
