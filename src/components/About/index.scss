@@ -1,6 +1,12 @@
 @import "../breakpoints/breakpoints.scss";
 
 .text-zone{
+  @include media("<=tablet"){
+    h1{
+      width: 100%;
+    }
+  }
+
   p{
     line-height: 2rem;
   }

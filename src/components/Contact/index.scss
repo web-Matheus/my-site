@@ -22,9 +22,6 @@
       position: relative;
       animation: fadeInUp 2s 2s;
       animation-fill-mode: forwards;
-      @include media("<=tablet"){
-        width: 100%;
-      }
      
     }
 
@@ -40,8 +37,8 @@
       }
     }
   }
-  .cubespinner{
-    @include media("<tablet"){
+  @include media("<=784px"){
+    .stage-cube-cont{
       display: none;
     }
   }
