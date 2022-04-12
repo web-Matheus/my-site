@@ -16,7 +16,7 @@ const Project = () => {
 
   return (
     <>
-      <div className="container about-page">
+      <div className="container project-page">
         <div className="text-zone">
           <h1>
             <AnimatedLetters
