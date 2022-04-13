@@ -23,16 +23,19 @@ const SlideShow = ()=>{
       <div className="each-slide">
         <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
           <span>Slide 1</span>
+          <p>esse paragrafo é para ter display none q quando o mouse hover o e elemento aparecer</p>
         </div>
       </div>
       <div className="each-slide">
         <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
           <span>Slide 2</span>
+          <p>esse paragrafo é para ter display none q quando o mouse hover o e elemento aparecer</p>
         </div>
       </div>
       <div className="each-slide">
         <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
           <span>Slide 3</span>
+          <p>esse paragrafo é para ter display none q quando o mouse hover o e elemento aparecer</p>
         </div>
       </div>
     </Slide>)
