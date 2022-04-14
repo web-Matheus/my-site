@@ -19,11 +19,14 @@ const SlideShow = ()=>{
       }
     
     return(
+      <div className='cards'>
       <Slide {...properties}>
       <div className="each-slide">
-        <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
+        <div style={{'backgroundImage': `url(${slideImages[0]})`}} className="card-front">
+          <div className='card-back'>
           <span>Slide 1</span>
           <p>esse paragrafo é para ter display none q quando o mouse hover o e elemento aparecer</p>
+          </div>
         </div>
       </div>
       <div className="each-slide">
@@ -38,7 +41,8 @@ const SlideShow = ()=>{
           <p>esse paragrafo é para ter display none q quando o mouse hover o e elemento aparecer</p>
         </div>
       </div>
-    </Slide>)
+    </Slide>
+    </div>)
   }
 
   export default SlideShow;
