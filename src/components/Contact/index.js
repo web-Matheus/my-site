@@ -39,8 +39,8 @@ import './index.scss'
           alert('Message successfully sent!')
           window.location.reload(false)
         },
-        (error) => {
-          console.log(error)
+        () => {
+          alert("Reload the page and try again! Please")
         }
       )
   }
