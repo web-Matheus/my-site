@@ -37,7 +37,7 @@
       }
     }
   }
-  @include media("<=784px"){
+  @include media("<=770px"){
     .stage-cube-cont{
       display: none;
     }
