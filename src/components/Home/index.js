@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import Logo from './Logo'
 import LogoS from '../../assets/images/logo-s.png'
 import './index.scss'
 
@@ -65,7 +64,10 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo  className="big-logo"/>
+        {/* <Logo  className="big-logo"/> */}
+        <div className='big-img'>
+          <img src={LogoS} alt="big img S"/>
+        </div>
        
       </div>
 
